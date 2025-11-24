@@ -49,7 +49,20 @@ const Splash = ({navigation}: SplashScreenProps) => {
                         }}
                         source={IMAGES.logo}
                     />
-                    <Text style={{...FONTS.fontMedium,fontSize:14,color:'rgba(255,255,255,0.7)',position:'absolute',bottom:10,}}>"Trusted by Over <Text style={{...FONTS.fontBold,color:'rgba(255,255,255,1)'}}>100K</Text> Construction Experts"</Text>
+            <Text
+  style={{
+    ...FONTS.fontMedium,
+    fontSize: 14,
+    color: 'rgba(255,255,255,0.7)',
+    position: 'absolute',
+    bottom: 10,
+  }}
+>
+  Turn sunlight into progress with{' '}
+  <Text style={{ ...FONTS.fontBold, color: 'rgba(255,255,255,1)' }}>Slnko</Text>
+</Text>
+
+
                 </View>
             </ImageBackground>
         </SafeAreaView>
