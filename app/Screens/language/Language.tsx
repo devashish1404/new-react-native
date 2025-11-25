@@ -172,7 +172,7 @@ const ChooseLanguage = ({navigation} : ChooseLanguageScreenProps) => {
                     title={"Continue"}
                     color={theme.dark ? COLORS.white :COLORS.primary}
                     text={colors.card}
-                    onPress={() => navigation.navigate('SignIn')}
+                    onPress={() => navigation.navigate('UserDetails')}
                 />
             </View>
         </View>

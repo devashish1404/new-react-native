@@ -315,7 +315,9 @@ const Onbording = ({ navigation } : OnbordingScreenProps) => {
                             color:colors.title,
                             lineHeight:30,
                             marginBottom:10
-                        }}>Everything You Need {"\n"}to Run Your Construction {"\n"}Business</Text>
+                        }}>Everything You Need {"\n"}
+  to Run Your Construction {"\n"}
+  Business Smarter</Text>
                         <Text
                             style={{
                                 ...FONTS.fontRegular,
@@ -323,7 +325,7 @@ const Onbording = ({ navigation } : OnbordingScreenProps) => {
                                 color:colors.text,
                                 lineHeight:24
                             }}
-                        >Plan Projects. Track Progress. Create {"\n"}Invoices. From Site to Office Manage {"\n"}It All sitemaster</Text>
+                        >Plan Projects. Track Progress. Create {"\n"}Invoices. From Site to Office Manage {"\n"}It All by SmartProtrac</Text>
                     </View>
                 </ScrollView>
                 <View

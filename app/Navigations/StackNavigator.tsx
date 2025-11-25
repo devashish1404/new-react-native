@@ -83,9 +83,9 @@ const StackNavigator = () => {
         <Stack.Screen name={"splash"} component={Splash} />
         <Stack.Screen name={"Onbording"} component={Onbording} />
         <Stack.Screen name={"ChooseLanguage"} component={ChooseLanguage} />
-        <Stack.Screen name={"SignIn"} component={SignIn} />
-        <Stack.Screen name={"EnterCode"} component={EnterCode} />
-        <Stack.Screen name={"NewPassword"} component={NewPassword} />
+        {/* <Stack.Screen name={"SignIn"} component={SignIn} /> */}
+        {/* <Stack.Screen name={"EnterCode"} component={EnterCode} /> */}
+        {/* <Stack.Screen name={"NewPassword"} component={NewPassword} /> */}
         <Stack.Screen name={"UserDetails"} component={UserDetails} />
         <Stack.Screen name={"CompanyDetails"} component={CompanyDetails} />
         <Stack.Screen name={"DrawerNavigation"} component={DrawerNavigation} />

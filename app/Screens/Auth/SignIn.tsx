@@ -201,7 +201,7 @@ const SignIn = ({ navigation } : SignInScreenProps) => {
                         </View>
                         <Button
                             title={'Request OTP'}
-                            onPress={() => navigation.navigate('EnterCode')}
+                            onPress={() => navigation.navigate('UserDetails')}
                             color={theme.dark ? COLORS.white :COLORS.primary}
                             text={colors.card}
                         />
