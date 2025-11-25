@@ -104,7 +104,7 @@ const QuestionsAccordion = () => {
                     borderColor:theme.dark ? colors.border :colors.background,
                     marginBottom: 15,
                     backgroundColor:colors.card,
-                    //paddingHorizontal: 20,
+
                 }}
                 activeSections={activeSections}
                 onChange={setSections}
