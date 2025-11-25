@@ -1,7 +1,6 @@
 export const IMAGES = {
 
 	user: require('../assets/images/user.png'),
-	// logo: require('../assets/images/logo.png'),
 	logo: require('../assets/images/my_logo.png'),
 	sun: require('../assets/images/icons/sun.png'),
 	chat: require('../assets/images/icons/chat.png'),
